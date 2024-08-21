@@ -1,0 +1,25 @@
+{
+  "name": "decorators",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "9.9.0",
+    "typescript-eslint": "8.2.0",
+    "eslint": "9.9.0",
+    "eslint-plugin-playwright": "1.6.2",
+    "@playwright/test": "1.46.0",
+    "dotenv": "16.4.5",
+    "prettier": "3.3.3",
+    "@types/node": "22.4.1",
+    "typescript": "5.5.4"
+  },
+  "scripts": {
+    "pw:open_local_chrome": "yarn playwright test --ui --project=local-chrome",
+    "pw:open_local_safari": "yarn playwright test --ui --project=local-safari",
+    "pw:open_local_mobile": "yarn playwright test --ui --project=local-mobile"
+  }
+}
